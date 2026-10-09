@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Toko Sederhana</title>
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      padding: 10px;
+      font-family: sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background: #0a22dc;
+      color: #f6f7fc;
+    }
+
+    .hero {
+      position: relative;
+      padding: 40px;
+      background: #0a22dc;
+      margin: 10px 0;
+      text-align: center;
+      color: #f6f7fc;
+    }
+
+    .hero .badge-promo {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      background: red;
+      color: white;
+      padding: 2px 6px;
+      font-size: 12px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+
+    .gallery div {
+      background: #eee;
+      padding: 20px;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;     
+      font-weight: 600;    
+      color: #000000;     
+      line-height: 1.5;  
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h2>Toko Saya</h2>
+    <div>Menu</div>
+  </div>
+
+  <div class="hero">
+    <div class="badge-promo">PROMO</div>
+    <h1>Selamat Datang</h1>
+  </div>
+
+  <div class="gallery">
+    <div>Produk 1</div>
+    <div>Produk 2</div>
+    <div>Produk 3</div>
+    <div>Produk 4</div>
+    <div>Produk 5</div>
+    <div>Produk 6</div>
+  </div>
+
+</body>
+</html>
